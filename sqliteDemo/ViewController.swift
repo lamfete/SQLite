@@ -84,11 +84,22 @@ class ViewController: UIViewController {
             print("error connection \(error)")
         }
     }
+    
+    func readDBOnly() {
+        let path = NSBundle.mainBundle().pathForResource("tes2", ofType: "db")!
+            
+        let db = try? Connection(path, readonly: true)
+
+        for row in try! db!.prepare("SELECT id, name, email FROM users") {
+            print("\(row[0]!), \(row[1]!), \(row[2]!)")
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        parseData()
+        //parseData()
+        readDBOnly()
     }
 
     override func didReceiveMemoryWarning() {

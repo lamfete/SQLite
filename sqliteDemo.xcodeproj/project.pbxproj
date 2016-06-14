@@ -26,6 +26,7 @@
 		F03A36291CF34F4700F1767E /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F03A36271CF34F3200F1767E /* SQLite.framework */; };
 		F03A362A1CF34F4700F1767E /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F03A36271CF34F3200F1767E /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F0E0AE831D0B115400DECB32 /* Staff.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E0AE821D0B115300DECB32 /* Staff.swift */; };
+		F0E560941D10516C00D926A8 /* tes2.db in Resources */ = {isa = PBXBuildFile; fileRef = F0E560931D10516C00D926A8 /* tes2.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		F02757F61D0F00BB0098E746 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = "<group>"; };
 		F03A36271CF34F3200F1767E /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SQLite.framework; sourceTree = "<group>"; };
 		F0E0AE821D0B115300DECB32 /* Staff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Staff.swift; sourceTree = "<group>"; };
+		F0E560931D10516C00D926A8 /* tes2.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = tes2.db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 		F00578A01CEF56430043B218 = {
 			isa = PBXGroup;
 			children = (
+				F0E560931D10516C00D926A8 /* tes2.db */,
 				F00578AB1CEF56430043B218 /* sqliteDemo */,
 				F00578C01CEF56430043B218 /* sqliteDemoTests */,
 				F00578CB1CEF56430043B218 /* sqliteDemoUITests */,
@@ -276,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0E560941D10516C00D926A8 /* tes2.db in Resources */,
 				F00578B71CEF56430043B218 /* LaunchScreen.storyboard in Resources */,
 				F00578B41CEF56430043B218 /* Assets.xcassets in Resources */,
 				F00578B21CEF56430043B218 /* Main.storyboard in Resources */,
